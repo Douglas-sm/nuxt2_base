@@ -1,0 +1,16 @@
+/* Tamanho máximo do container */
+$max-container: 1136px;
+    $max-container-inner-default: $max-container - 60px; 
+        $max-container-inner-small: $max-container - 200px;
+
+.max-width {
+    max-width: $max-container;
+}
+
+    .max-width-inner-default {
+        max-width: $max-container-inner-default;
+    }
+
+        .max-width-inner-small {
+            max-width: $max-container-inner-small;
+        }
